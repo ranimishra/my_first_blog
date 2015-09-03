@@ -1,28 +1,25 @@
+{% load staticfiles %}
 <html>
     <head> <title>Rani's blog</title>
-	   <link	rel="stylesheet"	href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-<link	rel="stylesheet"	href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-	<link	rel="stylesheet"	href="{%	static	"css/blog.css"	%}">
+	   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+           <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	   <link rel="stylesheet" href="{% static "css/blog.css" %}">
     </head>
     <body>
-        <div>
+        <div class="page-header">
 	    <h1><a href=""> My first blog page </a></h1>
 	</div>
 	<div>
-	    <p>published: 03.09.2015,06:00</p>
-	    <h2><a href="">My first post</a></h2>
-	    <p>I am a little girl who loves shopping and entertainment. Soon I will turn 25 in Oct 31st but still I will be a little girl in my heart.  If you wanna make me happy whenever I am sad you can gift me a dress.  If you are confused in selecting dress from websites.  You can take my help.  
+	    <h4>published: 03.09.2015,06:00 </h4>
+	    <br>
+	    <h3><a href="">My first post</a></h3> <br>
+	    <p>    I am a little girl who loves shopping and entertainment. Soon I will turn 25 in Oct 31st but still I will be a little girl in my heart.  If you wanna make me happy whenever I am sad you can gift me a dress.  If you are confused in selecting dress from websites.  You can take my help.  
 
-Wait for my next blog to know more about me.  Until then miss me bye byr</p>
-	</div>
-
-	<div>
-	    <h1><a href=""> My Second blog page </a></h1>
+Wait for my next blog to know more about me.  Until then miss me bye bye</p><br><br>
 	</div>
 	<div>
-	    <p>published: 03.09.2015,07:00</p>
-	    <h2><a href="">My Second post</a></h2>
-	    <p> This post is all about my love story.Binit kumar singh my best friend, my guidance, my well wisher,my all tym fav in short my everything.. There is no word to describe about him as he is very good human being and also like a child sometimes he is behaving like new born baby, however i like everything about him.. well i ll tell about him more details on my next blog</p>
+	    <h3><a href="">My Second post</a></h3><br>
+	    <p>    This post is all about my love story.Binit kumar singh my best friend, my guidance, my well wisher,my all tym fav in short my everything.. There is no word to describe about him as he is very good human being and also like a child sometimes he is behaving like new born baby, however i like everything about him.. well i ll tell about him more details on my next blog</p>
 	    <p>Thank you so much for giving your valuable time for reading my post</p>
 	</div>
        
